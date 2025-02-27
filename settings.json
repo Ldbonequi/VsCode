@@ -1,7 +1,15 @@
 {
+    "remote.extensions" : [
+       "usernamehw.errorlens",
+       "theo-coder.vsc-open-folder",
+       "hector.quick-open",
+       "VSpaceCode.whichkey",
+       "GitHub.copilot-chat",
+       "jdinhlife.gruvbox",
+    ],
+    
     "window.menuBarVisibility": "compact",
     "editor.fontFamily": "JetBrainsMono Nerd Font",
-    "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
     "editor.minimap.enabled": false,
     "workbench.tips.enabled": false,
@@ -10,6 +18,7 @@
     "window.density.editorTabHeight": "compact",
     "window.restoreWindows": "none",
     "explorer.compactFolders": false,
+    "editor.lineNumbers": "relative",
 
     "redhat.telemetry.enabled": false,
     "github.copilot.enable": {
@@ -22,11 +31,7 @@
 
     "workbench.startupEditor": "newUntitledFile",
     
-    "vim.useSystemClipboard": true,
-    "vim.hlsearch": true,
     "editor.cursorSurroundingLines": 10,
-    "vim.smartRelativeLine": true,
-    "vim.highlightedyank.enable": true,
     // which key settings
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -376,6 +381,7 @@
             ],
         },
     ],
-    "workbench.activityBar.location": "hidden",
-    "workbench.statusBar.visible": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
 }

@@ -1,0 +1,118 @@
+
+* {
+  min-height: 0;
+  min-width: 0;
+  font-family: Lexend, "JetBrainsMono NFP";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+window#waybar {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: #282828; /* Gruvbox background */
+}
+
+#workspaces button {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: #3c3836; /* Gruvbox dark gray */
+  color: #ebdbb2; /* Gruvbox foreground */
+}
+
+#workspaces button:hover {
+  color: #3c3836; /* Gruvbox dark gray */
+  background-color: #ebdbb2; /* Gruvbox foreground */
+}
+
+#workspaces button.active {
+  background-color: #3c3836; /* Gruvbox dark gray */
+  color: #458588; /* Gruvbox blue */
+}
+
+#workspaces button.urgent {
+  background-color: #3c3836; /* Gruvbox dark gray */
+  color: #cc241d; /* Gruvbox red */
+}
+
+#clock,
+#pulseaudio,
+#custom-logo,
+#custom-power,
+#custom-spotify,
+#custom-notification,
+#cpu,
+#tray,
+#memory,
+#wifi
+#window,
+#mpris {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: #3c3836; /* Gruvbox dark gray */
+}
+
+#mpris.playing {
+  color: #98971a; /* Gruvbox green */
+}
+
+#mpris.paused {
+  color: #928374; /* Gruvbox gray */
+}
+
+#custom-sep {
+  padding: 0px;
+  color: #665c54; /* Gruvbox medium gray */
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+}
+
+#cpu {
+  color: #689d6a; /* Gruvbox aqua */
+}
+
+#memory {
+  color: #d65d0e; /* Gruvbox orange */
+}
+
+#wifi {
+  color: #d65d0e; /* Gruvbox orange */
+}
+
+#clock {
+  color: #458588; /* Gruvbox blue */
+}
+
+#clock.simpleclock {
+  color: #83a598; /* Bright Gruvbox blue */
+}
+
+#window {
+  color: #ebdbb2; /* Gruvbox foreground */
+}
+
+#pulseaudio {
+  color: #b16286; /* Gruvbox purple */
+}
+
+#pulseaudio.muted {
+  color: #a89984; /* Gruvbox light gray */
+}
+
+#custom-logo {
+  color: #83a598; /* Bright Gruvbox blue */
+}
+
+#custom-power {
+  color: #cc241d; /* Gruvbox red */
+}
+
+tooltip {
+  background-color: #282828; /* Gruvbox background */
+  border: 2px solid #458588; /* Gruvbox blue */
+}
+

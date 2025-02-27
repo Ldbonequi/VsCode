@@ -1,0 +1,6 @@
+{
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "redhat.telemetry.enabled": false
+}

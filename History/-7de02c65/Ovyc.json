@@ -1,0 +1,7 @@
+{
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false
+}
