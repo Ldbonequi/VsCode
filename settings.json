@@ -6,6 +6,7 @@
        "VSpaceCode.whichkey",
        "GitHub.copilot-chat",
        "jdinhlife.gruvbox",
+       "asvetliakov.vscode-neovim"
     ],
     
     "window.menuBarVisibility": "compact",
@@ -33,26 +34,6 @@
     
     "editor.cursorSurroundingLines": 10,
     // which key settings
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "whichkey.show"
-            ]
-        }
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "whichkey.show"
-            ]
-        }
-    ],
     "whichkey.useFullWidthCharacters": true,
     "whichkey.bindingOverrides": [
     ],
