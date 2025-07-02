@@ -293,7 +293,7 @@
                     "key": "i",
                     "name": "[A][I] edits",
                     "type": "command",
-                    "command": "workbench.action.quickchat.launchInlineChat",
+                    "command": "inlineChat.start",
                 },
             ]
         },
