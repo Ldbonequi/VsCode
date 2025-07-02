@@ -42,7 +42,7 @@
             "key": "/",
             "name": "Comment line",
             "type": "command",
-            "command": "workbench.action.commentLine",
+            "command": "editor.action.commentLine",
         },
         {
             "key": "e",
@@ -365,4 +365,17 @@
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
+    "makefile.configureOnOpen": true,
+    "security.allowedUNCHosts": [
+        "C:"
+    ],
+    "workbench.editor.editorActionsLocation": "hidden",
+    "chat.commandCenter.enabled": false,
+    "window.commandCenter": false,
+    "remote.SSH.remotePlatform": {
+        "shallot.cs.colostate.edu": "linux"
+    },
+    "python.createEnvironment.trigger": "off",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
 }
